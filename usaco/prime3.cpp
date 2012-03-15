@@ -68,7 +68,7 @@ void gao(int x, int y, int s, int sd1, int sd2) {
 
 int main() {
 	freopen("prime3.in", "r", stdin);
-	//freopen("prime3.out", "w", stdout);
+	freopen("prime3.out", "w", stdout);
 
 	cin >> n >> a[0][0];
 
