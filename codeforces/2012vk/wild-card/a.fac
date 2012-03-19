@@ -1,0 +1,10 @@
+USING: io kernel math math.parser formatting sequences prettyprint io.streams.byte-array io.streams.sequence ;
+IN: a
+
+: cal ( n -- answer )
+dup dup * 3 * swap - 2 / ;
+
+readln string>number 
+cal
+"%d\n" printf
+
