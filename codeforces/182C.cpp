@@ -76,7 +76,7 @@ int main() {
 			int j = i - l;
 			if (j >= 0) 
 				if (a[j] >= 0) s -= a[j];
-				else if (ps.fin(a[j])!=ps.end()) {
+				else if (ps.find(a[j])!=ps.end()) {
 					ps.erase(ps.find(a[j]));
 					s -= -a[j];
 					if (!ns.empty()) {
